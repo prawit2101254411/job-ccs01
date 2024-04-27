@@ -22,7 +22,7 @@ body{
   background-color: rgb(247, 247, 247);
 }
 .h1-mychat{
-  font-size: 45px;
+  font-size: 35px;
   margin-left: 50px;
 }
 /* Navbav content  */
@@ -122,7 +122,7 @@ h1{
   border-radius: 5%;
   width: 90%;
   height: 90%;
-  gap: 20px;
+  gap: 10px;
 }
 .delete{
   display: flex;
@@ -136,10 +136,9 @@ h1{
 .box1-content2{
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 15px;
   padding: 20px;
   padding-block: 30px;
-  height: 80%;
   width: 40%;
   border-radius: 10%;
   background-color: rgb(248, 196, 99);
@@ -211,9 +210,9 @@ h3{
   flex-direction: column;
   align-items: center;
   margin-top: -20px;
-  padding-block: 30px;
+  padding-block: 15px;
   width: 50%;
-  height: 85%;
+  height: 90%;
   border: 2px solid rgb(235, 235, 235);
   border-radius: 10px;
 }
