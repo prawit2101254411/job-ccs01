@@ -6,7 +6,6 @@
 body{
   display: flex;
   justify-content: center;
-  height: 100vh;
   background-color: rgb(240, 240, 240);
 }
 .container {
@@ -24,6 +23,7 @@ body{
 .h1-mychat{
   font-size: 35px;
   margin-left: 50px;
+  margin-top: 50px;
 }
 /* Navbav content  */
 .item01 {
@@ -31,6 +31,8 @@ body{
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
+  gap: 20px;
+  flex-wrap: wrap;
   height: 15%;
   border-bottom: 2px solid rgb(218, 218, 218) ;
 }
@@ -75,42 +77,37 @@ body{
  .management-menu04{
   margin-top: 10px;
  }
+
 /* Page Content */
 .item02 {
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-direction: column;
-  height: 85%;
-  /* border: 1px solid black; */
 }
 h1{
   display: flex;
   width: 80%;
-  /* border:  1px solid black; */
   font-family: Sans-serif;
   }
 .contend{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    flex-basis: 80%;
+    height: 80%;
     width: 80%;
     /* border: 1px solid black; */
 }
-/* .box{
-  display: flex;
-  width: 50%;
-  height: 90%;
-} */
+
 .box01{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 50%;
+  width: 500px;
   height: 90%;
   gap: 20px;
+  /* border: 1px solid red; */
 }
 
 /* left Box */
@@ -209,9 +206,8 @@ h3{
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: -20px;
   padding-block: 15px;
-  width: 50%;
+  width: 500px;
   height: 90%;
   border: 2px solid rgb(235, 235, 235);
   border-radius: 10px;
